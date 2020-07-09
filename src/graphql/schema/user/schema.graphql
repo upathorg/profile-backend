@@ -1,0 +1,29 @@
+type User {
+  username: String
+  email: String
+  password: String
+}
+
+input UserInput {
+  username: String
+  email: String
+  password: String
+}
+
+type StatusCode {
+  code: Int
+}
+
+type StatusCodeToken {
+  code: Int
+  token: String
+}
+
+type Query {
+  getBooks: String
+}
+
+type Mutation {
+  createUser(UserInput: UserInput): StatusCode
+  loginUser(email: String, password: String): StatusCodeToken
+}
