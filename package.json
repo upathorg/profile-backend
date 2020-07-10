@@ -25,6 +25,7 @@
     "@types/sequelize": "^4.28.8",
     "apollo-server": "^2.10.1",
     "dotenv": "^8.2.0",
+    "fs-capacitor": "^6.2.0",
     "graphql": "^14.6.0",
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
