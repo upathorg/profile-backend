@@ -20,7 +20,7 @@ type StatusCodeToken {
 }
 
 type Query {
-  getUsers: String
+  getUser: String
 }
 
 type Mutation {

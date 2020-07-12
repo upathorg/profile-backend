@@ -7,8 +7,12 @@ export const UserModel=sequelize.define('User',{
         type:DataTypes.STRING,
         allowNull:false
     },
-    username:{
-        type:DataTypes.STRING(20),
+    firstname:{
+        type:DataTypes.STRING(50),
+        allowNull:false
+    },
+    lastname:{
+        type:DataTypes.STRING(50),
         allowNull:false
     },
     email:{
@@ -18,10 +22,6 @@ export const UserModel=sequelize.define('User',{
     password:{
         type:DataTypes.STRING(10),
         allowNull:false,
-    },
-    nationality: {
-        type:DataTypes.STRING(30),
-        allowNull:false
     },
     avatar: {
         type:DataTypes.STRING,
