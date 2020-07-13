@@ -2,6 +2,9 @@ type User {
   username: String
   email: String
   password: String
+  firstname: String
+  lastname: String
+  avatar: String
 }
 
 input UserInput {

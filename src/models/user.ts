@@ -7,6 +7,10 @@ export const UserModel=sequelize.define('User',{
         type:DataTypes.STRING,
         allowNull:false
     },
+    username:{
+        type:DataTypes.STRING(50),
+        allowNull:false
+    },
     firstname:{
         type:DataTypes.STRING(50),
         allowNull:false
